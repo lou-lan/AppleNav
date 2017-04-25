@@ -371,6 +371,18 @@
     letter-spacing: normal;
   }
 }
+#ac-globalnav .ac-gn-link:hover {
+  opacity: .65;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$ieopacity)';
+  filter: alpha(opacity=65);
+}
+
+#ac-globalnav .ac-gn-link:hover {
+  opacity: .65;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$ieopacity)';
+  filter: alpha(opacity=65);
+}
+
 /*2350*/
 #ac-globalnav .ac-gn-link-text {
   position: absolute;
@@ -388,23 +400,23 @@
 }
 #ac-globalnav .ac-gn-link-apple {
   width: 115px;
-  background-image: url('https://developer.apple.com/assets/elements/icons/brandmark/apple-developer-brandmark.svg');
+  background-image: url('../img/logo.svg');
   background-repeat: no-repeat;
   background-size: 107px auto;
-  background-position: 11px 10px;
+  background-position: 11px 4px;
 }
 /*2393*/
 #ac-globalnav .ac-gn-link-apple {
   width: 115px;
-  background-image: url('https://developer.apple.com/assets/elements/icons/brandmark/apple-developer-brandmark.svg');
+  background-image: url('../img/logo.svg');
   background-repeat: no-repeat;
   background-size: 107px auto;
-  background-position: 11px 10px;
+  background-position: 11px 4px;
 }
 /*2402*/
 @media only screen and (max-width: 735px) {
   #ac-globalnav .ac-gn-link-apple {
-    background-position: 11px 11px;
+    background-position: 11px 4px;
   }
 }
 /*2603*/
